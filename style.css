@@ -1,0 +1,152 @@
+body{
+  background-color: #beebe9;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Title Section */
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 1% 0 0 15%;
+}
+
+.titleTable{
+  float:left;
+  position: relative;
+  margin: 1.5% 0 0 5%;
+  border-collapse: collapse;
+}
+
+.titleData{
+  border: none;
+  background-color: #beebe9;
+  font-size: 1.2rem;
+}
+
+.dateInput{
+  width: 30%;
+}
+
+.title{
+  padding: 0.5% 0 2.5% 0;
+}
+
+.logo1{
+  width:20%;
+  float:right;
+  border-radius: 25px;
+  margin-right: 1%;
+}
+
+h4{
+display: inline-block;
+position: absolute;
+margin: 2% 20% 2% 2%;
+}
+
+/* Hidden Buttons */
+.days{
+  text-align: center;
+  padding: 1% 0;
+  display: none;
+}
+
+/* Main Table */
+
+.mainTable{
+  width:99.7%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 25px;
+}
+
+/* .row2 td,.row4 td, .row6 td, .row8 td, .row10 td, .row12 td, .row14 td,.row16 td,.row18 td,.row2 input, .row4 input, .row6 input,.row8 input,.row10 input, .row12 input, .row14 input, .row16 input,.row18 input{
+  background-color: blue;
+} */
+
+input{
+  width: 100%;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+td, th{
+  border: 1px;
+  border-style:solid;
+  border-color: black;
+  padding: 0;
+  padding: 0.2% 0;
+}
+
+td, input{
+  background-color: #fffdf9;
+}
+
+.blackboard{
+    border: 2px;
+    border-color: black;
+}
+
+.column1{
+  white-space: nowrap;
+  padding: 0 4px 0 4px;
+  background-color: #ffe3ed;
+}
+
+.row1{
+  background-color: #8ac6d1;
+}
+
+.idee{
+  font-size: 1.2rem;
+  color: blue;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Pseudo-Clase */
+.hover2{
+  background-color: #ccffcc;
+}
+
+.selectionGreen{
+  background-color: #66ff66;
+}
+
+::placeholder{
+  color:#cccccc;
+}
+
+/* Phone Formatting */
+@media screen and (max-width: 992px) {
+.column3, .column4,.column5,.column6{
+  display: none;
+}
+
+.days{
+  display: block;
+}
+
+button{
+  border-radius: 5px;
+}
+
+button{
+  padding: 0 auto;
+  font-weight: bold;
+  background-color: orange;
+}
+
+button:hover{
+  background-color: #66ff66;
+}
+
+button:focus{
+  background-color: #00cc00;
+}
+
+}
