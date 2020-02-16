@@ -130,6 +130,7 @@ td, input{
 button{
   border-radius: 5px;
   margin-bottom: 7px;
+  margin-left:4px;
   font-weight: bold;
   background-color: orange;
   width: 18%;
