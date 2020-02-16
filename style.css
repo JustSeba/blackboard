@@ -130,7 +130,6 @@ td, input{
 button{
   border-radius: 5px;
   margin-bottom: 7px;
-  margin-left:4px;
   font-weight: bold;
   background-color: orange;
   width: 18%;
@@ -139,6 +138,10 @@ button{
   position:relative;
 }
 
+button:first-child{
+  margin-left: 3px;
+}
+  
 button:hover{
   background-color: #66ff66;
 }
@@ -148,7 +151,7 @@ button:focus{
 }
 
 .logo1{
-  width: 35%;
+  width: 42%;
   display:inline-block;
   float: none;
 }
@@ -163,7 +166,7 @@ h1{
 
 .titleTable{
   display: inline-block;
-  width:50%;
+  width:55%;
   position: relative;
 }
 }
