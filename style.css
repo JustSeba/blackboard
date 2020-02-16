@@ -132,14 +132,14 @@ button{
   margin-bottom: 7px;
   font-weight: bold;
   background-color: orange;
-  width: 17%;
+  width: 18%;
   font-size: 0.6rem;
   display: inline-block;
   position:relative;
 }
 
 button:first-child{
-  margin-left: 3px;
+  margin-left: 4px;
 }
   
 button:hover{
@@ -151,7 +151,7 @@ button:focus{
 }
 
 .logo1{
-  width: 35%;
+  width: 38%;
   display:inline-block;
   float: none;
 }
@@ -161,7 +161,7 @@ h1{
 }
 
 .days{
-  display: inline;
+  display: inline-block;
 }
 
 .titleTable{
