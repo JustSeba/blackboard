@@ -161,7 +161,8 @@ h1{
 }
 
 .titleTable{
-  display: inline;
+  display: inline-block;
+  width:50%;
   position: relative;
 }
 }
