@@ -151,7 +151,7 @@ button:focus{
 }
 
 .logo1{
-  width: 42%;
+  width: 35%;
   display:inline-block;
   float: none;
 }
@@ -166,7 +166,7 @@ h1{
 
 .titleTable{
   display: inline-block;
-  width:55%;
+  width:57%;
   position: relative;
 }
 }
