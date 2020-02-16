@@ -143,6 +143,8 @@ button{
   padding: 0 auto;
   font-weight: bold;
   background-color: orange;
+    width: 16%;
+  font-size: 0.8rem;
 }
 
 button:hover{
