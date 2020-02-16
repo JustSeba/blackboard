@@ -127,24 +127,15 @@ td, input{
   display: none;
 }
 
-.logo1{
-  width:50%;
-  }
-  
-.days{
-  display: block;
-}
-
 button{
   border-radius: 5px;
-}
-
-button{
-  padding: 0 auto;
+  margin-bottom: 7px;
   font-weight: bold;
   background-color: orange;
-    width: 19%;
+  width: 18%;
   font-size: 0.8rem;
+  display: inline-block;
+  position:relative;
 }
 
 button:hover{
@@ -155,8 +146,22 @@ button:focus{
   background-color: #00cc00;
 }
 
+.logo1{
+  width: 35%;
+  display:inline-block;
+  float: none;
+}
+
 h1{
   display:none;
-  }
-  
+}
+
+.days{
+  display: inline;
+}
+
+.titleTable{
+  display: inline;
+  position: relative;
+}
 }
